@@ -30,7 +30,10 @@ When creating activity files:
 - Do NOT include a `**User:**` line in the activity file
 - Make issue/PR numbers clickable links using markdown syntax
 - If an issue or PR is already in the file, update the existing entry instead of creating a new one
-- Maintain all entries in ascending numeric order by issue/PR number
+- Organize the file into two main sections:
+  1. **## My PRs** - Pull requests opened by the user (ordered by PR number, ascending)
+  2. **## Pull Requests & Issues** - All other activity including reviews, comments, issues opened, and issues commented on (maintained in ascending numeric order)
+- Only include PRs in the "My PRs" section if they were opened by the user (not just commented on)
 
 ### Activity Description Format
 
