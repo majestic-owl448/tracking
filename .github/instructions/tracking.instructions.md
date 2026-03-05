@@ -30,6 +30,7 @@ When creating activity files:
 - Do NOT include a `**User:**` line in the activity file
 - Make issue/PR numbers clickable links using markdown syntax
 - If an issue or PR is already in the file, update the existing entry instead of creating a new one
+- Maintain all entries in ascending numeric order by issue/PR number
 
 ### Activity Description Format
 
