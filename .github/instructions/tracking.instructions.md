@@ -37,9 +37,12 @@ When creating activity files:
 
 ### Activity Description Format
 
-When recording activity for issues and PRs, use this format:
+When recording activity for issues and PRs, use these formats:
 
-**[#NUMBER](https://github.com/freeCodeCamp/freeCodeCamp/issues/NUMBER)** - Brief description of what the user did
+- For freeCodeCamp/freeCodeCamp: **[#NUMBER](https://github.com/freeCodeCamp/freeCodeCamp/issues/NUMBER)** - Brief description
+- For other repos: **[repo#NUMBER](https://github.com/freeCodeCamp/repo/issues/NUMBER)** - Brief description
+
+Examples: `#66215`, `CurriculumExpansion#1149`, `contribute#1228`, `news#1346`
 
 Guidelines for writing descriptions:
 - Start with an action verb (opened, closed, reviewed, submitted, etc.)
@@ -48,3 +51,4 @@ Guidelines for writing descriptions:
 - Keep it concise and scannable (typically one sentence)
 - Do not include links or references to related issues unless crucial to understanding the action
 - Only describe activity from the current week; mention previous activity only if needed for context (e.g., updating a PR that was opened previously, or responding to a review that was left in a prior week)
+- For PRs in the "My PRs" section, track lifecycle changes (merged or closed) by updating the entry to note the status change (e.g., "PR was merged" or "PR was closed")
