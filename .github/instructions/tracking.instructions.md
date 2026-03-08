@@ -52,3 +52,4 @@ Guidelines for writing descriptions:
 - Do not include links or references to related issues unless crucial to understanding the action
 - Only describe activity from the current week; mention previous activity only if needed for context (e.g., updating a PR that was opened previously, or responding to a review that was left in a prior week)
 - For PRs in the "My PRs" section, track lifecycle changes (merged or closed) by updating the entry to note the status change (e.g., "PR was merged" or "PR was closed")
+- Add `(pr)` or `(issue)` immediately after the markdown link and before the dash to distinguish between pull requests and issues (e.g., `**[#66215](...pull...)** (pr) -` or `**[#66178](...issues...)** (issue) -`)
