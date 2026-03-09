@@ -1,0 +1,13 @@
+title: freeCodeCamp Contribution Activity
+description: Weekly activity log for freeCodeCamp contributions
+author: majestic-owl448
+theme: minima
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - .git/
+  - .github/

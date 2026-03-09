@@ -29,8 +29,14 @@ When searching for activity from majestic-owl448 on a PR or issue:
 When creating activity files:
 - Do NOT include a `**User:**` line in the activity file
 - Make issue/PR numbers clickable links using markdown syntax
-- If an issue or PR is already in the file, update the existing entry instead of creating a new one
-- Organize the file into two main sections:
+- **Day-based format**: Activity files are organized by day of the week (Monday through Sunday)
+  - Each day section (e.g., `## Monday, March 9`) should be treated independently
+  - Add activity entries under the specific day they occurred
+  - **If a PR/issue has activity on multiple days**: Create separate entries under each day's section describing only the activity that occurred on that specific day
+    - Example: If PR #12345 was reviewed on Monday and merged on Tuesday, it should appear under both Monday (with review activity) and Tuesday (with merge activity)
+  - If new activity occurs on a PR/issue already listed under a specific day, update that day's entry to include the new activity
+  - Do not move entries between days or consolidate them across days
+- **Legacy format** (for older files): Organize the file into two main sections:
   1. **## My PRs** - Pull requests opened by the user (ordered by PR number, ascending)
   2. **## Pull Requests & Issues** - All other activity including reviews, comments, issues opened, and issues commented on (maintained in ascending numeric order)
 - Only include PRs in the "My PRs" section if they were opened by the user (not just commented on)
@@ -52,4 +58,4 @@ Guidelines for writing descriptions:
 - Do not include links or references to related issues unless crucial to understanding the action
 - Only describe activity from the current week; mention previous activity only if needed for context (e.g., updating a PR that was opened previously, or responding to a review that was left in a prior week)
 - For PRs in the "My PRs" section, track lifecycle changes (merged or closed) by updating the entry to note the status change (e.g., "PR was merged" or "PR was closed")
-- Add `(pr)` or `(issue)` immediately after the markdown link and before the dash to distinguish between pull requests and issues (e.g., `**[#66215](...pull...)** (pr) -` or `**[#66178](...issues...)** (issue) -`)
+- Add `(pr)` or `(issue)` immediately after the markdown link and before the dash to distinguish between pull requests and issues (e.g., `**[#66215](https://github.com/org/repo/pull/66215)** (pr) -` or `**[#66178](https://github.com/org/repo/issues/66178)** (issue) -`)
