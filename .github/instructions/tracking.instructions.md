@@ -12,6 +12,8 @@ User is majestic-owl448 on GitHub. Whenever you get a link to an issue or PR, au
 
 Always fetch PR/issue details via API to see comments and actual activity—never guess what was done based on title or description alone.
 
+Before temporarily removing content from a file (e.g., to stage a partial commit), always create a backup copy of the file first (e.g., `cp file.md file.md.bak`). Restore from the backup afterward and delete the backup once done.
+
 ### How to Find PR/Issue Activity
 
 When searching for activity from majestic-owl448 on a PR or issue:
