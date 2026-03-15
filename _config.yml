@@ -11,3 +11,5 @@ permalink: pretty
 exclude:
   - .git/
   - .github/
+  - todo.md
+  - follow-up.md
