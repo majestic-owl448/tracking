@@ -8,49 +8,57 @@
 
 ### To Review
 
-- **[#65964](https://github.com/freeCodeCamp/freeCodeCamp/pull/65964)** — add binary search workshop JS v9
 - **[#66117](https://github.com/freeCodeCamp/freeCodeCamp/pull/66117)** — add linked list workshop JS v9
 - **[#66235](https://github.com/freeCodeCamp/freeCodeCamp/pull/66235)** — fix regex for todo form input checks (changes requested March 10; check if author updated)
 - **[#65819](https://github.com/freeCodeCamp/freeCodeCamp/pull/65819)** — add JS graphs and tree quiz
 - **[#64427](https://github.com/freeCodeCamp/freeCodeCamp/pull/64427)** — add envelope budget app
-- **[#66197](https://github.com/freeCodeCamp/freeCodeCamp/pull/66197)** — add Cargo Manifest Validator Lab (author responded March 14, ready for re-review)
-- **[#66298](https://github.com/freeCodeCamp/freeCodeCamp/pull/66298)** — add Smart Pantry Restocker lab (author responded March 15, ready for re-review)
-- **[#66343](https://github.com/freeCodeCamp/freeCodeCamp/pull/66343)** — add Python OOP course to catalog
 - **[#64012](https://github.com/freeCodeCamp/freeCodeCamp/pull/64012)** — add workshop-word-counter to JS v9 cert
 - **[#66379](https://github.com/freeCodeCamp/freeCodeCamp/pull/66379)** — Build a Zoo Animal Scatterplot
 - **[#65848](https://github.com/freeCodeCamp/freeCodeCamp/pull/65848)** — add JS BFS workshop
 - **[#66022](https://github.com/freeCodeCamp/freeCodeCamp/pull/66022)** — add workshop heritage library catalog
 - **[#66406](https://github.com/freeCodeCamp/freeCodeCamp/pull/66406)** — add interactive JS courses to catalog
 - **[#66441](https://github.com/freeCodeCamp/freeCodeCamp/pull/66441)** — add MathJax support for Precalculus
-- **[CurriculumExpansion#1147](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1147)** — add traffic light sequencer lab prototype
 - **[CurriculumExpansion#1136](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1136)** — updating world map workshop prototype
-
-### Pending
-
-- **fix Python terminology (function/method, elif clause/statement)**: PR https://github.com/freeCodeCamp/freeCodeCamp/pull/66434 — awaiting review
-- **workshop-string-formatter step clarity**: PR https://github.com/freeCodeCamp/freeCodeCamp/pull/66435 — awaiting review
+- **[CurriculumExpansion#1135](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1135)** — adding express error handling piggy bank lab
+- **[CurriculumExpansion#1131](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1131)** — adding express error handling tiny bank API workshop
+- **[#65515](https://github.com/freeCodeCamp/freeCodeCamp/pull/65515)** — add Playlist Remix Engine lab
+- **[#66165](https://github.com/freeCodeCamp/freeCodeCamp/pull/66165)** — fix accessibility code examples (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/66156)
+- **[curriculum-helpers#561](https://github.com/freeCodeCamp/curriculum-helpers/pull/561)** — implement universal selector handling in getStyle (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/64218)
+- **[#66340](https://github.com/freeCodeCamp/freeCodeCamp/pull/66340)** — enforce workshop file validations (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/62366)
+- **[#62399](https://github.com/freeCodeCamp/freeCodeCamp/pull/62399)** — add setup instructions to first backend challenge (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/60576)
 
 ---
 
 ## Contribute Docs
 
-Tracking issue: https://github.com/freeCodeCamp/contribute/issues/1200
+### To Check
 
-### In Progress
-
-- **#6: Clarify `*-step` vs `*-challenge` command distinction** — freeCodeCamp#66355 merged; challenge-editor#9 still open (ready for review)
-
-### Pending (waiting for contribute#1220 to merge — tracked in follow-up.md)
-
-- **Document CI test behavior**: Clarify that tests for each step run against the seed of the next step (or solution for the last step) in CI.
+- **Check on https://github.com/freeCodeCamp/contribute/issues/1249** — would daily challenges docs be useful? No linked PRs
+- **Check on https://github.com/freeCodeCamp/contribute/issues/992** — building freeCodeCamp on codespaces doesn't work; no linked PRs
+- **Check on https://github.com/freeCodeCamp/contribute/issues/1247** — add theory lesson docs
+- **Check on https://github.com/freeCodeCamp/contribute/issues/1189** — failing command for codespaces users, request docs tweak
+- **Check on https://github.com/freeCodeCamp/contribute/issues/1142** — document curriculum best practices
+- **Check on https://github.com/freeCodeCamp/contribute/issues/1140** — rename "Work on Codebase" to "Basic Git Workflow"
+- **Check on https://github.com/freeCodeCamp/contribute/issues/1139** — add "Returning to freeCodeCamp" guide
+- **Check on https://github.com/freeCodeCamp/contribute/issues/1179** — rework documentation to be task-oriented with Astro templates
 
 ### To Review
 
 - **[contribute#1236](https://github.com/freeCodeCamp/contribute/pull/1236)** — docs: add TS helpers (relates to curriculum-helpers explorer.ts update)
+- **[contribute#1227](https://github.com/freeCodeCamp/contribute/pull/1227)** — docs: add language curricula guide
+- **[contribute#1170](https://github.com/freeCodeCamp/contribute/pull/1170)** — docs: Codespaces devcontainer
+- **[contribute#1220](https://github.com/freeCodeCamp/contribute/pull/1220)** — docs: document create-new-project script for labs, quizzes, and reviews
 
-### Open PRs
+---
 
-- challenge-editor PR #9: update script suggestions by challengeType — awaiting review
+## Utils Scripts (`/home/ilenia/freeCodeCamp/utils-scripts`)
+
+Figure out if/how to integrate each script into the regular workflow.
+
+- **`merge-conflict-check.sh`** — scans open PRs for merge conflict label mismatches; currently has hardcoded PR numbers, last run August 2025
+- **`inactive-check.sh`** — checks for inactive PRs
+- **`discussing-inactive-check.sh`** — checks for inactive PRs in "discussing" status
+- **`dfs.py`** — unknown purpose, investigate
 
 ---
 
