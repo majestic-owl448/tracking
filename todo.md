@@ -8,25 +8,8 @@
 
 ### To Review
 
-- **[#65980](https://github.com/freeCodeCamp/freeCodeCamp/pull/65980)** — Wildlife Tracker workshop; PR by Jeevankumar-s (account now restored), needs review
-- **[#66233](https://github.com/freeCodeCamp/freeCodeCamp/pull/66233)** — fix Python V9 setter examples to call setter in `__init__`; PR by Jeevankumar-s (account now restored), needs review
-- **[#66302](https://github.com/freeCodeCamp/freeCodeCamp/issues/66302)** — interactive editor shows extra constructor metadata in JS classes lecture; open issue by Jeevankumar-s, needs triage
 - **[#65887](https://github.com/freeCodeCamp/freeCodeCamp/issues/65887)** — improve solution download format to ZIP project structure; open issue by Jeevankumar-s, needs triage
-- **[contribute#1200](https://github.com/freeCodeCamp/contribute/issues/1200)** — Workshop Creation Documentation Gaps; open issue by Jeevankumar-s, needs triage
-- **[#65643](https://github.com/freeCodeCamp/freeCodeCamp/pull/65643)** — Story Fragment Shuffler lab; author pushed new commits on March 15, re-review needed
-- **[#62167](https://github.com/freeCodeCamp/freeCodeCamp/pull/62167)** — fortune telling app; author pushed new commit on March 14, re-review needed
-- **[#66197](https://github.com/freeCodeCamp/freeCodeCamp/pull/66197)** — Cargo Manifest Validator Lab; author pushed updates on March 15, re-review needed
-- **[#66343](https://github.com/freeCodeCamp/freeCodeCamp/pull/66343)** — Python OOP video course; new commits pushed today (approved with nitpick, check if addressed)
-- **[#65964](https://github.com/freeCodeCamp/freeCodeCamp/pull/65964)** — binary search workshop; author pushed new commits today, re-review needed
-- **[CurriculumExpansion#1087](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1087)** — Escape Room Code Runner workshop prototype; author (BilalGhazal) pushed new commits today, re-review needed
-- **[CurriculumExpansion#1078](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1078)** — Guild Loot Tracker lab prototype; author (AdityaSingh-18) pushed new commits today, re-review needed
-- **[#65338](https://github.com/freeCodeCamp/freeCodeCamp/pull/65338)** — Device Loan Ledger lab; no activity since Feb 13, follow up or consider closing
-- **[#66298](https://github.com/freeCodeCamp/freeCodeCamp/pull/66298)** — Pantry/shipping lab; no activity since Feb 12, follow up with author
-- **[CurriculumExpansion#1152](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1152)** — no activity since March 3, follow up with author
-- **[CurriculumExpansion#1147](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1147)** — traffic light sequencer lab; no activity since Feb 26, follow up with author
-- **[CurriculumExpansion#1071](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1071)** — Sensor Burst Analyzer workshop prototype; no activity since Feb 26, follow up with author
 - **[#66117](https://github.com/freeCodeCamp/freeCodeCamp/pull/66117)** — add linked list workshop JS v9
-- **[#66235](https://github.com/freeCodeCamp/freeCodeCamp/pull/66235)** — fix regex for todo form input checks (changes requested March 10; check if author updated)
 - **[#65819](https://github.com/freeCodeCamp/freeCodeCamp/pull/65819)** — add JS graphs and tree quiz
 - **[#64427](https://github.com/freeCodeCamp/freeCodeCamp/pull/64427)** — add envelope budget app
 - **[#64012](https://github.com/freeCodeCamp/freeCodeCamp/pull/64012)** — add workshop-word-counter to JS v9 cert
@@ -34,19 +17,22 @@
 - **[#65848](https://github.com/freeCodeCamp/freeCodeCamp/pull/65848)** — add JS BFS workshop
 - **[#66022](https://github.com/freeCodeCamp/freeCodeCamp/pull/66022)** — add workshop heritage library catalog
 - **[#66406](https://github.com/freeCodeCamp/freeCodeCamp/pull/66406)** — add interactive JS courses to catalog
-- **[#66441](https://github.com/freeCodeCamp/freeCodeCamp/pull/66441)** — add MathJax support for Precalculus
-- **[CurriculumExpansion#1136](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1136)** — updating world map workshop prototype
 - **[CurriculumExpansion#1135](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1135)** — adding express error handling piggy bank lab
 - **[CurriculumExpansion#1131](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1131)** — adding express error handling tiny bank API workshop
 - **[#65515](https://github.com/freeCodeCamp/freeCodeCamp/pull/65515)** — add Playlist Remix Engine lab
-- **[#66165](https://github.com/freeCodeCamp/freeCodeCamp/pull/66165)** — fix accessibility code examples (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/66156)
 - **[curriculum-helpers#561](https://github.com/freeCodeCamp/curriculum-helpers/pull/561)** — implement universal selector handling in getStyle (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/64218)
-- **[#66340](https://github.com/freeCodeCamp/freeCodeCamp/pull/66340)** — enforce workshop file validations (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/62366)
 - **[#62399](https://github.com/freeCodeCamp/freeCodeCamp/pull/62399)** — add setup instructions to first backend challenge (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/60576)
 
 ---
 
 ## Contribute Docs
+
+### To Open
+
+- **Open a PR** to document test execution order in workshop and lab guides: tests for each step run against the seed of the next step, or the solution block for the last step (workshops only)
+- **Open a PR** to add a note that `pnpm run develop` must be running for the "View Live Version" link in the Challenge Editor to work (port 8000), since the editor runs on port 3300 — applies to workshop and lab guides
+- **Open a PR** to explain position within a module: 1-indexed, based on currently existing blocks, not planned ones — applies to workshop and lab guides
+- **Open a PR** to document the `intro.json` update step in the workshop and lab creation workflow (the file structure is documented in the curriculum file structure page, but the step itself is missing from the creation workflow)
 
 ### To Check
 
@@ -76,6 +62,53 @@ Figure out if/how to integrate each script into the regular workflow.
 - **`inactive-check.sh`** — checks for inactive PRs
 - **`discussing-inactive-check.sh`** — checks for inactive PRs in "discussing" status
 - **`dfs.py`** — unknown purpose, investigate
+
+---
+
+## To Read
+
+<!-- Articles, docs, issues, or threads worth reading when there's time -->
+
+### Claude Code Docs
+
+- https://code.claude.com/docs/en/overview
+- https://code.claude.com/docs/en/quickstart
+- https://code.claude.com/docs/en/changelog
+- https://code.claude.com/docs/en/how-claude-code-works
+- https://code.claude.com/docs/en/features-overview
+- https://code.claude.com/docs/en/memory
+- https://code.claude.com/docs/en/common-workflows
+- https://code.claude.com/docs/en/best-practices
+- https://code.claude.com/docs/en/remote-control
+- https://code.claude.com/docs/en/claude-code-on-the-web
+- https://code.claude.com/docs/en/desktop-quickstart
+- https://code.claude.com/docs/en/desktop
+- https://code.claude.com/docs/en/chrome
+- https://code.claude.com/docs/en/vs-code
+- https://code.claude.com/docs/en/jetbrains
+- https://code.claude.com/docs/en/code-review
+- https://code.claude.com/docs/en/github-actions
+- https://code.claude.com/docs/en/gitlab-ci-cd
+- https://code.claude.com/docs/en/slack
+- https://code.claude.com/docs/en/sub-agents
+- https://code.claude.com/docs/en/agent-teams
+- https://code.claude.com/docs/en/plugins
+- https://code.claude.com/docs/en/discover-plugins
+- https://code.claude.com/docs/en/skills
+- https://code.claude.com/docs/en/scheduled-tasks
+- https://code.claude.com/docs/en/output-styles
+- https://code.claude.com/docs/en/hooks-guide
+- https://code.claude.com/docs/en/headless
+- https://code.claude.com/docs/en/mcp
+- https://code.claude.com/docs/en/troubleshooting
+- https://code.claude.com/docs/en/settings
+- https://code.claude.com/docs/en/permissions
+- https://code.claude.com/docs/en/sandboxing
+- https://code.claude.com/docs/en/terminal-config
+- https://code.claude.com/docs/en/model-config
+- https://code.claude.com/docs/en/fast-mode
+- https://code.claude.com/docs/en/statusline
+- https://code.claude.com/docs/en/keybindings
 
 ---
 
