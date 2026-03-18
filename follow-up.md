@@ -38,11 +38,12 @@ Issues from Naomi's Sprints where a contributor is assigned but has not yet open
 
 ## Awaiting Author Response
 
+- **[#65515](https://github.com/freeCodeCamp/freeCodeCamp/pull/65515)** (freeCodeCamp) - Playlist Remix Engine lab; left inline comments on 2026-03-18 (missing user story for empty array validation, redundant parameter check, solution indentation and semicolons, `name` field in block JSON); waiting for author to address
+
 - **[#66235](https://github.com/freeCodeCamp/freeCodeCamp/pull/66235)** (freeCodeCamp) - fix regex for todo form input checks; left review that the material is archived and not maintained, waiting for author response
 - **[#66340](https://github.com/freeCodeCamp/freeCodeCamp/pull/66340)** (freeCodeCamp) - enforce workshop file validations; left comment asking whether `isLastStep` could use block.json instead of filesystem scanning; waiting for author to respond and update
 - **[#66522](https://github.com/freeCodeCamp/freeCodeCamp/pull/66522)** (freeCodeCamp) - Python functions workshop prototype; left comment to move to draft and inline comment to fix intro.json ordering on 2026-03-17; waiting for author to address
 - **[#65964](https://github.com/freeCodeCamp/freeCodeCamp/pull/65964)** (freeCodeCamp) - binary search workshop; left review on 2026-03-17 with inline suggestions (challengeType, intro.json, step 9 typo, console.log regex); waiting for author to address
-- **[#66197](https://github.com/freeCodeCamp/freeCodeCamp/pull/66197)** (freeCodeCamp) - Cargo Manifest Validator lab; left comments on 2026-03-17 (leverage→use, testObj_ rename, Note: formatting); waiting for author to address
 - **[#66233](https://github.com/freeCodeCamp/freeCodeCamp/pull/66233)** (freeCodeCamp) - fix Python V9 setter examples; requested changes (step 28 seed missing update, step 21 description inaccurate), waiting for author to address
 - **[CurriculumExpansion#1136](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1136)** (CurriculumExpansion) - world map workshop prototype; left comment flagging d3.event bug, test.html removal, and cleanup items, waiting for author to address
 - **[CurriculumExpansion#1152](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1152)** (CurriculumExpansion) - left comment on 2026-03-17 asking author to test in a curriculum page before updating the prototype; waiting for author response
@@ -59,14 +60,12 @@ PRs that have been approved but are waiting for someone else to merge them.
 
 - **[#62913](https://github.com/freeCodeCamp/freeCodeCamp/pull/62913)** (freeCodeCamp) - Build a Chart Lab, approved by jdwilkin4, waiting for second review; move back to todo if changes requested
 - **[#66215](https://github.com/freeCodeCamp/freeCodeCamp/pull/66215)** (freeCodeCamp) - Express theory block, approved by Sembauke, waiting for second review; move back to todo if changes requested
-- **[contribute#1258](https://github.com/freeCodeCamp/contribute/pull/1258)** (contribute) - Docs PR for #66415 curriculum file structure changes; waiting for review and merge
-
+- **[contribute#1264](https://github.com/freeCodeCamp/contribute/pull/1264)** (contribute) - Seed code indentation and hyphenation rules; waiting for review and merge
 ## Auto-merge Enabled
 
 PRs where auto-merge was enabled. If still unmerged at start of day, something went wrong (CI failure or merge conflict) — flag for investigation.
 
-<!-- Format: - **[#NUMBER](URL)** (repo) -->
-- **[#66523](https://github.com/freeCodeCamp/freeCodeCamp/pull/66523)** (freeCodeCamp)
+- **[#66197](https://github.com/freeCodeCamp/freeCodeCamp/pull/66197)** (freeCodeCamp) - 2026-03-18
 
 ## Blocking — Waiting for Merge
 

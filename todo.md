@@ -21,7 +21,6 @@
 - **[#66406](https://github.com/freeCodeCamp/freeCodeCamp/pull/66406)** — add interactive JS courses to catalog
 - **[CurriculumExpansion#1135](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1135)** — adding express error handling piggy bank lab
 - **[CurriculumExpansion#1131](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1131)** — adding express error handling tiny bank API workshop
-- **[#65515](https://github.com/freeCodeCamp/freeCodeCamp/pull/65515)** — add Playlist Remix Engine lab
 - **[curriculum-helpers#561](https://github.com/freeCodeCamp/curriculum-helpers/pull/561)** — implement universal selector handling in getStyle (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/64218)
 - **[#62399](https://github.com/freeCodeCamp/freeCodeCamp/pull/62399)** — add setup instructions to first backend challenge (linked to issue https://github.com/freeCodeCamp/freeCodeCamp/issues/60576)
 
@@ -36,6 +35,52 @@
 - **Open a PR** to explain position within a module: 1-indexed, based on currently existing blocks, not planned ones — applies to workshop and lab guides
 - **Open a PR** to document the `intro.json` update step in the workshop and lab creation workflow (the file structure is documented in the curriculum file structure page, but the step itself is missing from the creation workflow)
 - **[contribute#1249](https://github.com/freeCodeCamp/contribute/issues/1249)** — Open a PR to add daily challenges docs (how to add new ones, how to test, how to release); current info is at https://github.com/freeCodeCamp/staff-wiki
+- **Open a PR** to add Python 4-space indentation style to the style guide
+
+### To Review and Update
+
+Review each page for outdated or missing information and open PRs as needed:
+
+- `_hooks-shared.mdx`
+- `authors-analytics-manual.mdx`
+- `codebase-best-practices.mdx`
+- `courses-vscode-extension.mdx`
+- `curriculum-file-structure.mdx`
+- `curriculum-help.mdx`
+- `faq.mdx`
+- `getting-started.mdx`
+- `how-to-add-playwright-tests.mdx`
+- `how-to-catch-outgoing-emails-locally.mdx`
+- `how-to-contribute-to-the-codebase.mdx`
+- `how-to-create-catalog-items.mdx`
+- `how-to-enable-new-languages.mdx`
+- `how-to-fix-merge-conflicts.mdx`
+- `how-to-help-with-video-challenges.mdx`
+- `how-to-open-a-pull-request.mdx`
+- `how-to-proofread-files.mdx`
+- `how-to-setup-freecodecamp-locally.mdx`
+- `how-to-setup-freecodecamp-mobile-app-locally.mdx`
+- `how-to-setup-wsl.mdx`
+- `how-to-translate-files.mdx`
+- `how-to-use-docker-on-windows-home.mdx`
+- `how-to-work-on-coding-challenges.mdx` *(in progress — indentation rules, hyphenation)*
+- `how-to-work-on-labs.mdx`
+- `how-to-work-on-localized-client-webapp.mdx`
+- `how-to-work-on-quizzes.mdx`
+- `how-to-work-on-reviews.mdx`
+- `how-to-work-on-the-component-library.mdx`
+- `how-to-work-on-the-docs-site.mdx`
+- `how-to-work-on-tutorials-that-use-coderoad.mdx`
+- `how-to-work-on-workshops.mdx`
+- `intro.mdx`
+- `language-lead-handbook.mdx`
+- `moderator-handbook.mdx`
+- `moderator-onboarding-guide.mdx`
+- `reply-templates.mdx`
+- `security.mdx`
+- `troubleshooting-development-issues.mdx`
+- `user-token-workflow.mdx`
+- `writing-style-guide.mdx`
 
 ### To Check
 - **Check on https://github.com/freeCodeCamp/contribute/issues/992** — building freeCodeCamp on codespaces doesn't work; no linked PRs
@@ -70,6 +115,7 @@ Figure out if/how to integrate each script into the regular workflow.
 
 - https://gist.github.com/raisedadead/cc46e3fe8184013741ab14ff10151ebd
 - https://github.com/freeCodeCamp/Claude-Code-Handbook
+- https://claude.ai/share/0e8394f8-7b9a-4141-973c-2d48790eb0ab
 
 ### Claude Code Docs
 
@@ -109,7 +155,6 @@ Figure out if/how to integrate each script into the regular workflow.
 - https://code.claude.com/docs/en/terminal-config
 - https://code.claude.com/docs/en/model-config
 - https://code.claude.com/docs/en/fast-mode
-- https://code.claude.com/docs/en/statusline
 - https://code.claude.com/docs/en/keybindings
 
 ---
