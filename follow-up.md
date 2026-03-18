@@ -3,6 +3,8 @@
 
 ## Unassigned Issues — Watching for Activity
 
+- **[contribute#1220](https://github.com/freeCodeCamp/contribute/pull/1220)** (contribute) - Docs PR to detail each `create-new-project` CLI question and intended answer; seems abandoned — if still unupdated once #1259 and #1260 are merged, close it and open a new PR with those details
+
 - **[contribute#1200](https://github.com/freeCodeCamp/contribute/issues/1200)** (contribute) - Workshop Creation Documentation Gaps; left a comment summarizing what's been addressed and what still needs docs PRs; monitoring for responses
 
 - **[#64786](https://github.com/freeCodeCamp/freeCodeCamp/issues/64786)** (freeCodeCamp) - lab job application form user story not visible; previous PR closed without merge, needs a new one; labeled `status: waiting triage`
@@ -13,7 +15,7 @@ Naomi's Sprint issues with no assignee. Monitor for comments requesting assignme
 
 - **[#66172](https://github.com/freeCodeCamp/freeCodeCamp/issues/66172)** (freeCodeCamp) - Add Build a Music Industry Revenue Bar Chart workshop to frontend libraries cert
 - **[#66049](https://github.com/freeCodeCamp/freeCodeCamp/issues/66049)** (freeCodeCamp) - Python Certification setter example modification
-- **[#65979](https://github.com/freeCodeCamp/freeCodeCamp/issues/65979)** (freeCodeCamp) - Workshop – Build a Wildlife Tracker; PR #65980 opened by Jeevankumar-s
+- **[#65979](https://github.com/freeCodeCamp/freeCodeCamp/issues/65979)** (freeCodeCamp) - Workshop – Build a Wildlife Tracker; PR #65980 opened by Jeevankumar-s; left two inline suggestions on 2026-03-17 (semicolon + double blank line in step 6); waiting for author to address
 - **[#64869](https://github.com/freeCodeCamp/freeCodeCamp/issues/64869)** (freeCodeCamp) - Break down string methods workshop and add it to main
 - **[#64121](https://github.com/freeCodeCamp/freeCodeCamp/issues/64121)** (freeCodeCamp) - Workshop – Artifact Provenance Auditor
 - **[#64111](https://github.com/freeCodeCamp/freeCodeCamp/issues/64111)** (freeCodeCamp) - Workshop – Delivery Route Merger
@@ -37,24 +39,19 @@ Issues from Naomi's Sprints where a contributor is assigned but has not yet open
 ## Awaiting Author Response
 
 - **[#66235](https://github.com/freeCodeCamp/freeCodeCamp/pull/66235)** (freeCodeCamp) - fix regex for todo form input checks; left review that the material is archived and not maintained, waiting for author response
-
-- **[#66340](https://github.com/freeCodeCamp/freeCodeCamp/pull/66340)** (freeCodeCamp) - enforce workshop file validations; left comment asking for test coverage for `solution` headers in non-last steps, waiting for author response
-
-- **[#66298](https://github.com/freeCodeCamp/freeCodeCamp/pull/66298)** (freeCodeCamp) - Smart Pantry Restocker lab; requested changes: planRestock qty-check logic, wrong module placement (should move to javascript-loops), and replace reduce/some/Set with loop-based approaches
-
+- **[#66340](https://github.com/freeCodeCamp/freeCodeCamp/pull/66340)** (freeCodeCamp) - enforce workshop file validations; left comment asking whether `isLastStep` could use block.json instead of filesystem scanning; waiting for author to respond and update
+- **[#66522](https://github.com/freeCodeCamp/freeCodeCamp/pull/66522)** (freeCodeCamp) - Python functions workshop prototype; left comment to move to draft and inline comment to fix intro.json ordering on 2026-03-17; waiting for author to address
+- **[#65964](https://github.com/freeCodeCamp/freeCodeCamp/pull/65964)** (freeCodeCamp) - binary search workshop; left review on 2026-03-17 with inline suggestions (challengeType, intro.json, step 9 typo, console.log regex); waiting for author to address
+- **[#66197](https://github.com/freeCodeCamp/freeCodeCamp/pull/66197)** (freeCodeCamp) - Cargo Manifest Validator lab; left comments on 2026-03-17 (leverage→use, testObj_ rename, Note: formatting); waiting for author to address
 - **[#66233](https://github.com/freeCodeCamp/freeCodeCamp/pull/66233)** (freeCodeCamp) - fix Python V9 setter examples; requested changes (step 28 seed missing update, step 21 description inaccurate), waiting for author to address
-
-- **[CurriculumExpansion#1152](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1152)** (CurriculumExpansion) - waiting for update from author
-- **[CurriculumExpansion#1140](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1140)** (CurriculumExpansion) - Proofreading Tool lab prototype, waiting for author activity
 - **[CurriculumExpansion#1136](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1136)** (CurriculumExpansion) - world map workshop prototype; left comment flagging d3.event bug, test.html removal, and cleanup items, waiting for author to address
-- **[CurriculumExpansion#1087](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1087)** (CurriculumExpansion) - Escape Room Code Runner workshop prototype, waiting for author to update PR
+- **[CurriculumExpansion#1152](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1152)** (CurriculumExpansion) - left comment on 2026-03-17 asking author to test in a curriculum page before updating the prototype; waiting for author response
+- **[CurriculumExpansion#1140](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1140)** (CurriculumExpansion) - Proofreading Tool lab prototype; requested changes (folder rename, `analyzeTexts` spelling, `repeatedWordsIndices` typo, user story detail, example function calls); review implementation after next update
+- **[CurriculumExpansion#1087](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1087)** (CurriculumExpansion) - Escape Room Code Runner workshop prototype, nudged on 2026-03-17; bring up immediately if activity, otherwise next week
 - **[CurriculumExpansion#1071](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1071)** (CurriculumExpansion) - Sensor Burst Analyzer workshop prototype, nudged on 2026-03-16; bring up immediately if activity, otherwise next week
 - **[CurriculumExpansion#1078](https://github.com/freeCodeCamp/CurriculumExpansion/pull/1078)** (CurriculumExpansion) - Guild Loot Tracker lab prototype, nudged on 2026-03-16; bring up immediately if activity, otherwise next week
 - **[#65643](https://github.com/freeCodeCamp/freeCodeCamp/pull/65643)** (freeCodeCamp) - Story Fragment Shuffler lab, nudged on 2026-03-16; bring up immediately if activity, otherwise next week
 - **[#65338](https://github.com/freeCodeCamp/freeCodeCamp/pull/65338)** (freeCodeCamp) - Device Loan Ledger lab, nudged on 2026-03-16; bring up immediately if activity, otherwise next week
-- **[#66197](https://github.com/freeCodeCamp/freeCodeCamp/pull/66197)** (freeCodeCamp) - requested changes, waiting for author to address
-- **[#66343](https://github.com/freeCodeCamp/freeCodeCamp/pull/66343)** (freeCodeCamp) - Python OOP video course, approved with nitpick suggestion; waiting for author to optionally address and someone to merge
-- **[#65964](https://github.com/freeCodeCamp/freeCodeCamp/pull/65964)** (freeCodeCamp) - binary search workshop, left 4 inline suggestions; waiting for author to apply
 
 ## My PRs — Approved, Watching for Merge
 
@@ -62,24 +59,22 @@ PRs that have been approved but are waiting for someone else to merge them.
 
 - **[#62913](https://github.com/freeCodeCamp/freeCodeCamp/pull/62913)** (freeCodeCamp) - Build a Chart Lab, approved by jdwilkin4, waiting for second review; move back to todo if changes requested
 - **[#66215](https://github.com/freeCodeCamp/freeCodeCamp/pull/66215)** (freeCodeCamp) - Express theory block, approved by Sembauke, waiting for second review; move back to todo if changes requested
-- **[#66434](https://github.com/freeCodeCamp/freeCodeCamp/pull/66434)** (freeCodeCamp) - fix Python terminology (function/method, elif clause/statement), waiting for first review; move back to todo if changes requested
-- **[#66435](https://github.com/freeCodeCamp/freeCodeCamp/pull/66435)** (freeCodeCamp) - workshop-string-formatter step clarity, waiting for first review; move back to todo if changes requested
-- **[#66476](https://github.com/freeCodeCamp/freeCodeCamp/pull/66476)** (freeCodeCamp) - allow spaces in PR template checkboxes, waiting for first review; move back to todo if changes requested
-- **[#66494](https://github.com/freeCodeCamp/freeCodeCamp/pull/66494)** (freeCodeCamp) - strip markdown links when checking PR template, waiting for first review; move back to todo if changes requested
+- **[contribute#1258](https://github.com/freeCodeCamp/contribute/pull/1258)** (contribute) - Docs PR for #66415 curriculum file structure changes; waiting for review and merge
 
 ## Auto-merge Enabled
 
 PRs where auto-merge was enabled. If still unmerged at start of day, something went wrong (CI failure or merge conflict) — flag for investigation.
 
 <!-- Format: - **[#NUMBER](URL)** (repo) -->
+- **[#66523](https://github.com/freeCodeCamp/freeCodeCamp/pull/66523)** (freeCodeCamp)
 
 ## Blocking — Waiting for Merge
 
+- **[contribute#1259](https://github.com/freeCodeCamp/contribute/pull/1259)** and **[contribute#1260](https://github.com/freeCodeCamp/contribute/pull/1260)** (contribute) - Theory lessons guide and labs/quizzes/reviews updates; when both are merged, add to todo: check contribute#1220 and close it if still unupdated, then open a new PR with the detailed `create-new-project` walkthrough.
 
-- **[#64712](https://github.com/freeCodeCamp/freeCodeCamp/pull/64712)** (freeCodeCamp) - When curriculum-helpers#559 merges, add #64712 back to todo to review.
-- **[#66415](https://github.com/freeCodeCamp/freeCodeCamp/pull/66415)** (freeCodeCamp) - When merged, add to todo list: open a new docs PR to reflect curriculum file structure changes (contribute#1243 already merged, so this is the remaining blocker).
+- **[curriculum-helpers#559](https://github.com/freeCodeCamp/curriculum-helpers/pull/559)** (curriculum-helpers) - When merged, add #64712 back to todo to review.
 - **[#64427](https://github.com/freeCodeCamp/freeCodeCamp/pull/64427)** (freeCodeCamp) - When merged, add to todo list: open issue #65007 for contributors (add `help wanted`).
-- **[contribute#1220](https://github.com/freeCodeCamp/contribute/pull/1220)** (contribute) - When merged, add to todo list:
+- **[contribute#1220](https://github.com/freeCodeCamp/contribute/pull/1220)** (contribute) - When merged or closed, add to todo list:
   - Open a PR to document CI test behavior (tests for each step run against the seed of the next step, or solution for the last step)
   - Open a PR to add Python 4-space formatting rule to the style guide
   - Open a PR to break down the curriculum helpers docs into smaller focused files

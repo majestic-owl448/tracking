@@ -8,6 +8,8 @@
 
 ### To Review
 
+- **[#66510](https://github.com/freeCodeCamp/freeCodeCamp/pull/66510)** — add traffic light sequencer lab
+- **[#66298](https://github.com/freeCodeCamp/freeCodeCamp/pull/66298)** — re-review Smart Pantry Restocker lab; author (aBeholic) pushed commit and commented on 2026-03-16 after our CHANGES_REQUESTED
 - **[#65887](https://github.com/freeCodeCamp/freeCodeCamp/issues/65887)** — improve solution download format to ZIP project structure; open issue by Jeevankumar-s, needs triage
 - **[#66117](https://github.com/freeCodeCamp/freeCodeCamp/pull/66117)** — add linked list workshop JS v9
 - **[#65819](https://github.com/freeCodeCamp/freeCodeCamp/pull/65819)** — add JS graphs and tree quiz
@@ -33,12 +35,10 @@
 - **Open a PR** to add a note that `pnpm run develop` must be running for the "View Live Version" link in the Challenge Editor to work (port 8000), since the editor runs on port 3300 — applies to workshop and lab guides
 - **Open a PR** to explain position within a module: 1-indexed, based on currently existing blocks, not planned ones — applies to workshop and lab guides
 - **Open a PR** to document the `intro.json` update step in the workshop and lab creation workflow (the file structure is documented in the curriculum file structure page, but the step itself is missing from the creation workflow)
+- **[contribute#1249](https://github.com/freeCodeCamp/contribute/issues/1249)** — Open a PR to add daily challenges docs (how to add new ones, how to test, how to release); current info is at https://github.com/freeCodeCamp/staff-wiki
 
 ### To Check
-
-- **Check on https://github.com/freeCodeCamp/contribute/issues/1249** — would daily challenges docs be useful? No linked PRs
 - **Check on https://github.com/freeCodeCamp/contribute/issues/992** — building freeCodeCamp on codespaces doesn't work; no linked PRs
-- **Check on https://github.com/freeCodeCamp/contribute/issues/1247** — add theory lesson docs
 - **Check on https://github.com/freeCodeCamp/contribute/issues/1189** — failing command for codespaces users, request docs tweak
 - **Check on https://github.com/freeCodeCamp/contribute/issues/1142** — document curriculum best practices
 - **Check on https://github.com/freeCodeCamp/contribute/issues/1140** — rename "Work on Codebase" to "Basic Git Workflow"
@@ -50,7 +50,6 @@
 - **[contribute#1236](https://github.com/freeCodeCamp/contribute/pull/1236)** — docs: add TS helpers (relates to curriculum-helpers explorer.ts update)
 - **[contribute#1227](https://github.com/freeCodeCamp/contribute/pull/1227)** — docs: add language curricula guide
 - **[contribute#1170](https://github.com/freeCodeCamp/contribute/pull/1170)** — docs: Codespaces devcontainer
-- **[contribute#1220](https://github.com/freeCodeCamp/contribute/pull/1220)** — docs: document create-new-project script for labs, quizzes, and reviews
 
 ---
 
@@ -68,6 +67,9 @@ Figure out if/how to integrate each script into the regular workflow.
 ## To Read
 
 <!-- Articles, docs, issues, or threads worth reading when there's time -->
+
+- https://gist.github.com/raisedadead/cc46e3fe8184013741ab14ff10151ebd
+- https://github.com/freeCodeCamp/Claude-Code-Handbook
 
 ### Claude Code Docs
 
