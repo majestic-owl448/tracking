@@ -24,9 +24,15 @@
 - **[#62351](https://github.com/freeCodeCamp/freeCodeCamp/issues/62351)** (freeCodeCamp) - Make the "Build a Magazine" workshop HTML more semantic; assigned to maryojo, waiting for fCC PR
 - **[#64122](https://github.com/freeCodeCamp/freeCodeCamp/issues/64122)** (freeCodeCamp) - Lab – Traffic Light Sequencer; assigned to AdityaSingh-18, prototype approved in CurriculumExpansion#1147, waiting for fCC PR
 
+## Approved, Watching for Merge
+
+- **[#67542](https://github.com/freeCodeCamp/freeCodeCamp/pull/67542)** (freeCodeCamp) - approved, watching for merge, 2026-05-22
+
 ## Auto-merge Enabled
 
 - **[#67346](https://github.com/freeCodeCamp/freeCodeCamp/pull/67346)** (freeCodeCamp) - 2026-05-21
+- **[#67539](https://github.com/freeCodeCamp/freeCodeCamp/pull/67539)** (freeCodeCamp) - 2026-05-22
+- **[#67529](https://github.com/freeCodeCamp/freeCodeCamp/pull/67529)** (freeCodeCamp) - 2026-05-22
 
 ## Blocking — Waiting for Merge
 
