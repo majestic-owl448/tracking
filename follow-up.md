@@ -22,7 +22,17 @@
 - **[#64117](https://github.com/freeCodeCamp/freeCodeCamp/issues/64117)** (freeCodeCamp) - Workshop – Smart Campus Directory; assigned to Rudro4038, waiting for CurriculumExpansion/fCC PR
 - **[#64627](https://github.com/freeCodeCamp/freeCodeCamp/issues/64627)** (freeCodeCamp) - Create a prototype for Python functions workshop; assigned to ahmedmahfoudhi, waiting for CurriculumExpansion/fCC PR
 - **[#62351](https://github.com/freeCodeCamp/freeCodeCamp/issues/62351)** (freeCodeCamp) - Make the "Build a Magazine" workshop HTML more semantic; assigned to maryojo, waiting for fCC PR
-- **[#64122](https://github.com/freeCodeCamp/freeCodeCamp/issues/64122)** (freeCodeCamp) - Lab – Traffic Light Sequencer; assigned to AdityaSingh-18, prototype approved in CurriculumExpansion#1147, waiting for fCC PR
+
+## Awaiting Author Response
+
+- **[curriculum-helpers#561](https://github.com/freeCodeCamp/curriculum-helpers/pull/561)** (curriculum-helpers) - Requested changes: regex `\]` bug; 2026-05-30
+- **[curriculum-helpers#582](https://github.com/freeCodeCamp/curriculum-helpers/pull/582)** (curriculum-helpers) - Requested changes: title typo, `_normalizeUniversal` semantic change note, `getStyleDeclarations` fix, inline suggestion; 2026-05-30
+- **[curriculum-helpers#585](https://github.com/freeCodeCamp/curriculum-helpers/pull/585)** (curriculum-helpers) - Requested changes: comment blocks, `getStyleSheet()?.ownerNode`, issue ref, `getStyleAny` test; template comment posted; 2026-05-30
+- **[curriculum-helpers#586](https://github.com/freeCodeCamp/curriculum-helpers/pull/586)** (curriculum-helpers) - Requested changes: `Closes` instead of `Related to`; template comment posted; 2026-05-30
+- **[#67267](https://github.com/freeCodeCamp/freeCodeCamp/pull/67267)** (freeCodeCamp) - Requested three content additions: setxkbmap -query, dead keys explanation, switch-back note; 2026-05-29
+- **[#67614](https://github.com/freeCodeCamp/freeCodeCamp/pull/67614)** (freeCodeCamp) - Requested user story improvements: zone default, qty conversion, duplicate SKU deduplication, full planRestock logic, pantry structure, item definition; 2026-05-28
+- **[#66510](https://github.com/freeCodeCamp/freeCodeCamp/pull/66510)** (freeCodeCamp) - Requested `generateTimeline` user stories cover fault-flag and negative-duration behavior; 2026-05-28
+- **[#67606](https://github.com/freeCodeCamp/freeCodeCamp/pull/67606)** (freeCodeCamp) - Left inline suggestions: Challenge 301 seed params, Challenge 305 hint text, Challenge 298/299 schema comma; 2026-05-28
 
 ## Approved, Watching for Merge
 
@@ -33,6 +43,7 @@
 - **[#67346](https://github.com/freeCodeCamp/freeCodeCamp/pull/67346)** (freeCodeCamp) - 2026-05-21
 - **[#67539](https://github.com/freeCodeCamp/freeCodeCamp/pull/67539)** (freeCodeCamp) - 2026-05-22
 - **[#67529](https://github.com/freeCodeCamp/freeCodeCamp/pull/67529)** (freeCodeCamp) - 2026-05-22
+- **[#67660](https://github.com/freeCodeCamp/freeCodeCamp/pull/67660)** (freeCodeCamp) - 2026-05-30
 
 ## Blocking — Waiting for Merge
 
