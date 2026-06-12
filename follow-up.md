@@ -25,6 +25,9 @@
 
 ## Awaiting Author Response
 
+- **[#67797](https://github.com/freeCodeCamp/freeCodeCamp/pull/67797)** (freeCodeCamp) - Left inline suggestion: change `const currCount` to `let currCount` in step 10 seed (workshop-emoji-reactor) so the camper never flips const→let and the region needs no widening; 2026-06-04
+- **[#67774](https://github.com/freeCodeCamp/freeCodeCamp/pull/67774)** (freeCodeCamp) - Left inline suggestion: `m` flag fix still broken (`modifier.flag.`), corrected to end at "...the multi-line modifier."; 2026-06-03
+- **[#67761](https://github.com/freeCodeCamp/freeCodeCamp/pull/67761)** (freeCodeCamp) - Left inline suggestion: typo and grammar fix on line 46; 2026-06-02
 - **[curriculum-helpers#561](https://github.com/freeCodeCamp/curriculum-helpers/pull/561)** (curriculum-helpers) - Requested changes: regex `\]` bug; 2026-05-30
 - **[curriculum-helpers#582](https://github.com/freeCodeCamp/curriculum-helpers/pull/582)** (curriculum-helpers) - Requested changes: title typo, `_normalizeUniversal` semantic change note, `getStyleDeclarations` fix, inline suggestion; 2026-05-30
 - **[curriculum-helpers#585](https://github.com/freeCodeCamp/curriculum-helpers/pull/585)** (curriculum-helpers) - Requested changes: comment blocks, `getStyleSheet()?.ownerNode`, issue ref, `getStyleAny` test; template comment posted; 2026-05-30
@@ -40,6 +43,8 @@
 
 ## Auto-merge Enabled
 
+- **[#67902](https://github.com/freeCodeCamp/freeCodeCamp/pull/67902)** (freeCodeCamp) - 2026-06-12
+- **[#67782](https://github.com/freeCodeCamp/freeCodeCamp/pull/67782)** (freeCodeCamp) - 2026-06-10
 - **[#67346](https://github.com/freeCodeCamp/freeCodeCamp/pull/67346)** (freeCodeCamp) - 2026-05-21
 - **[#67539](https://github.com/freeCodeCamp/freeCodeCamp/pull/67539)** (freeCodeCamp) - 2026-05-22
 - **[#67529](https://github.com/freeCodeCamp/freeCodeCamp/pull/67529)** (freeCodeCamp) - 2026-05-22

@@ -9,6 +9,7 @@ Weekly activity logs tracking contributions to freeCodeCamp repositories.
 
 ## Recent Activity
 
+- [Week of June 8, 2026](activity-2026-06-08.html)
 - [Week of June 1, 2026](activity-2026-06-01.html)
 - [Week of May 25, 2026](activity-2026-05-25.html)
 - [Week of May 18, 2026](activity-2026-05-18.html)
