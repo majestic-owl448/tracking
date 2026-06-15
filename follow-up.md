@@ -25,6 +25,7 @@
 
 ## Awaiting Author Response
 
+- **[#67940](https://github.com/freeCodeCamp/freeCodeCamp/pull/67940)** (freeCodeCamp) - Left review: Step 2 fix is correct; requested two further audit fixes (calculateSum body indent in steps 8/9, double blank line before calculateQuotient in steps 16-19 + solution); 2026-06-15
 - **[#67797](https://github.com/freeCodeCamp/freeCodeCamp/pull/67797)** (freeCodeCamp) - Left inline suggestion: change `const currCount` to `let currCount` in step 10 seed (workshop-emoji-reactor) so the camper never flips const→let and the region needs no widening; 2026-06-04
 - **[#67774](https://github.com/freeCodeCamp/freeCodeCamp/pull/67774)** (freeCodeCamp) - Left inline suggestion: `m` flag fix still broken (`modifier.flag.`), corrected to end at "...the multi-line modifier."; 2026-06-03
 - **[#67761](https://github.com/freeCodeCamp/freeCodeCamp/pull/67761)** (freeCodeCamp) - Left inline suggestion: typo and grammar fix on line 46; 2026-06-02
@@ -43,7 +44,12 @@
 
 ## Auto-merge Enabled
 
+- **[#67960](https://github.com/freeCodeCamp/freeCodeCamp/pull/67960)** (freeCodeCamp) - 2026-06-15
+- **[#67898](https://github.com/freeCodeCamp/freeCodeCamp/pull/67898)** (freeCodeCamp) - 2026-06-15
+- **[#67910](https://github.com/freeCodeCamp/freeCodeCamp/pull/67910)** (freeCodeCamp) - 2026-06-12
+- **[#67911](https://github.com/freeCodeCamp/freeCodeCamp/pull/67911)** (freeCodeCamp) - 2026-06-12
 - **[#67902](https://github.com/freeCodeCamp/freeCodeCamp/pull/67902)** (freeCodeCamp) - 2026-06-12
+- **[#67905](https://github.com/freeCodeCamp/freeCodeCamp/pull/67905)** (freeCodeCamp) - 2026-06-12
 - **[#67782](https://github.com/freeCodeCamp/freeCodeCamp/pull/67782)** (freeCodeCamp) - 2026-06-10
 - **[#67346](https://github.com/freeCodeCamp/freeCodeCamp/pull/67346)** (freeCodeCamp) - 2026-05-21
 - **[#67539](https://github.com/freeCodeCamp/freeCodeCamp/pull/67539)** (freeCodeCamp) - 2026-05-22
